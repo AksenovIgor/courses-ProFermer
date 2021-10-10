@@ -11,7 +11,7 @@
 </head>
 <body>
   <header class="header">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top pt-4 header-bacground">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top pt-4 header-background">
       <div class="container">
         <a href=""><img src="img/logo.svg" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +20,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link me-2 active link-style" href="#">home</a>
+              <a class="nav-link me-2 active link-style" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link me-2" href="#">Find a doctor</a>
@@ -41,8 +41,8 @@
   </header>
   <main class="main">
     <section class="section section-welcome sectionm-mb--md sectionm-mb--mt ">
-      <div class="container">
-        <div class="row ">
+      <div class="container welcome-wrapper">
+        <div class="row">
           <div class="col-4 my-auto">
             <h1 class="welcome-title">Virtual healthcare for you</h1>
             <p class="welcome-description">Trafalgar provides progressive, and affordabl healthcare, accessible on mobile and online for everyone</p>
@@ -55,7 +55,7 @@
       </div>
     </section>
     <section class="section section-services sectionm-mb--md">
-      <div class="container">
+      <div class="container services-wrapper">
         <div class="section-heading section-heading--center">
           <h2 class="section-heading_title">Our services</h2>
           <p class="section-heading_description">We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</p>
@@ -110,8 +110,8 @@
       </div>
     </section>
     <section class="section section-info sectionm-mb--md">
-      <div class="container">
-        <div class="row info_wrapper">
+      <div class="container  info_wrapper">
+        <div class="row">
           <div class="info__img col-8">
             <img src="img/ingo-providers.png" alt="">
           </div>
@@ -124,7 +124,7 @@
             </div>
           </div>
         </div>
-        <div class="row info_wrapper info_wrapper-mt">
+        <div class="row info-mt">
           <div class="info my-auto col-4">
             <h2 class="section-heading_title">Download our 
               mobile apps</h2>
@@ -145,41 +145,39 @@
         </div>
       </div>
     </section>
-    <section class="section section-customer sectionm-mb--md color-white">
+    <section class="section section-customer sectionm-mb--md">
       <div class="container customer_content">
-        <div class=" bg-img">
-          <div class="section-heading section-heading--center ">
-            <h2 class="section-heading_title color-white">What our customer are saying</h2>
+        <div class="section-heading section-heading--center ">
+          <h2 class="section-heading_title color-white">What our customer are saying</h2>
+        </div>
+        <div class="customer_wrapper"> 
+          <div class="customer-personality">
+            <div class="customer-personality__photo">
+              <img src="img/Mask Group.png" alt="">
+            </div>
+            <div class="customer-personality__name-wrapper">
+              <p class="customer-personality__name">Edward Newgate</p>
+              <p class="customer-personality__work">Founder Circle</p>
+            </div>
           </div>
-          <div class="customer_wrapper"> 
-            <div class="customer-personality">
-              <div class="customer-personality__photo">
-                <img src="img/Mask Group.png" alt="">
-              </div>
-              <div class="customer-personality__name-wrapper">
-                <p class="customer-personality__name">Edward Newgate</p>
-                <p class="customer-personality__work">Founder Circle</p>
-              </div>
-            </div>
-            <div class="customer-review_wrapper">
-              <p class="customer-review">“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”</p>
-            </div>
+          <div class="customer-review_wrapper">
+            <p class="customer-review">“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”</p>
           </div>
         </div>
       </div>
     </section>
-    <section class="section section-Check sectionm-mb--md">
-      <div class="container">
-        <div class="section-heading section-heading--center ">
+    <section class="section section-article sectionm-mb--md">
+      <div class="container article-wrapper">
+        <div class="section-heading section-heading--center">
           <h2 class="section-heading_title">Check out our latest article</h2>
         </div>
-        <div class="Check-list">
-          <div class="Check-item h-100">
+        <div class="article-list">
+          <div class="article-item h-100">
             <img src="img/Mask Group2.png" class="card-img-top" alt="...">
-            <div class="Check-item-body">
-              <h5 class="Check-item-title">Disease detection, check 
+            <div class="article-item-body">
+              <h5 class="article-item-title">Disease detection, check 
                 up in the laboratory</h5>
-              <p class="Check-item-text">In this case, the role of the health laboratory is very important to do
+              <p class="article-item-text">In this case, the role of the health laboratory is very important to do
                 a disease detection...</p>
               <a class="link link-primary article-link" href="">Read more <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
@@ -194,12 +192,12 @@
               </a>
             </div>
           </div>
-          <div class="Check-item h-100">
+          <div class="article-item h-100">
             <img src="img/chec-card-img2.png" class="card-img-top" alt="...">
-            <div class="Check-item-body">
-              <h5 class="Check-item-title">Herbal medicines that are 
+            <div class="article-item-body">
+              <h5 class="article-item-title">Herbal medicines that are 
                 safe for consumption</h5>
-              <p class="Check-item-text">Herbal medicine is very widely used at this time because of its very good for your health...</p>
+              <p class="article-item-text">Herbal medicine is very widely used at this time because of its very good for your health...</p>
               <a class="link link-primary article-link" href="">Read more <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
                 <path class="arrow-style-hover" d="M1.37501 5.30357L11.9822 5.30357L9.65179 7.63393C9.33037 7.95536 9.33037 8.4375 9.65179 8.75893C9.97322 9.08036 10.4554 9.08036 10.7768 8.75893L14.4732 5.0625C14.7947 4.74107 14.7947 4.25893 14.4732 3.9375L10.7768 0.241071C10.4554 -0.0803579 9.97322 -0.080358 9.65179 0.241071C9.33037 0.5625 9.33037 1.04464 9.65179 1.36607L11.9822 3.69643L1.37501 3.69643C0.973222 3.69643 0.571436 4.01786 0.571436 4.5C0.571436 4.98214 0.973222 5.30357 1.37501 5.30357Z" fill="#4089ED"/>
@@ -213,12 +211,12 @@
               </a>
             </div>
           </div>
-          <div class="Check-item h-100">
+          <div class="article-item h-100">
             <img src="img/chec-card-img3.png" class="card-img-top" alt="...">
-            <div class="Check-item-body">
-              <h5 class="Check-item-title">Natural care for healthy 
+            <div class="article-item-body">
+              <h5 class="article-item-title">Natural care for healthy 
                 facial skin</h5>
-              <p class="Check-item-text">A healthy lifestyle should start from now and also for your skin health.
+              <p class="article-item-text">A healthy lifestyle should start from now and also for your skin health.
                 There are some...</p>
                 <a class="link link-primary article-link" href="">Read more <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0)">
@@ -242,7 +240,7 @@
     </section>
   </main>
   <footer class="footer">
-      <div class="container footer-container footer-container-p">
+      <div class="container footer-container">
         <div class="footer-cotnet">
           <div class="footer-logo__wrapper">
             <p class="footer-logo">T</p>
