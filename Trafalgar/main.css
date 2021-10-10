@@ -342,7 +342,7 @@ margin-top: 37px;
   position: relative;
 }
 .footer-container::after{
-  content: url(img/footer-element.svg);
+  content: url(img/footer/footer-element.svg);
   position: absolute;
   left: -290px;
   bottom: 0px;
