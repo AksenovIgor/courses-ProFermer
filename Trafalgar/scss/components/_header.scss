@@ -1,0 +1,14 @@
+.nav-link{
+  &_me_2{
+    margin-right: 2.2rem;
+  }
+  &:hover{
+    text-shadow: 0.2px 0.2px rgb(0, 0, 0);
+  }
+}
+
+.header{
+  &-background{
+    background-color: rgba(255, 255, 255, 0.979);
+  }
+}

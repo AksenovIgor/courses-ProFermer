@@ -1,0 +1,59 @@
+.services{
+  position: relative;
+  &::before{
+    content: url('./img/main/services/bg-services-points.svg');
+    position: absolute;
+    right: 14px;
+    top: 687px;
+    z-index: -1;
+  }
+  &::after{
+    content: url('./img/main/services/bg-services.svg');
+    position: absolute;
+    left: -505px;
+    top: -16px;
+    z-index: -1;
+  }
+  &-btn__wrapper{
+    text-align: center;
+  }  
+  &-list{
+    margin: 0 50px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 36px;
+  }
+  &-item{
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    padding: 45px;
+    &__top{
+      height: 100px;
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 30px;
+    }
+    &__title {
+      font-weight: bold;
+      font-size: 24px;
+      color: #000000;
+      margin-bottom: 10px;
+    }
+    &__text{
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 28px;
+      color: #7D7987;
+    }
+  }
+}
+
+
+
+
+
+
+
+

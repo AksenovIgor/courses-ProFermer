@@ -1,0 +1,28 @@
+.welcome{
+  position: relative;
+  &::before{
+    content: url('./img/main/welcome/bg-welcome.svg');
+    position: absolute;
+    left: -110px;
+    top: 149px;
+  }
+  &__header{
+    margin-bottom: 25px;
+    &_title{
+      font-weight: bold;
+      font-size: 48px;
+    }
+  }
+  &__body{
+    margin-bottom: 45px;
+    &_description{
+      font-weight: 300;
+      font-size: 21px;
+      color: #7D7987;
+    }
+  }
+}
+
+
+
+
