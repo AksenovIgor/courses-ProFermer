@@ -1,22 +1,4 @@
-.services{
-  position: relative;
-  &::before{
-    content: url('./img/main/services/bg-services-points.svg');
-    position: absolute;
-    right: 14px;
-    top: 687px;
-    z-index: -1;
-  }
-  &::after{
-    content: url('./img/main/services/bg-services.svg');
-    position: absolute;
-    left: -505px;
-    top: -16px;
-    z-index: -1;
-  }
-  &-btn__wrapper{
-    text-align: center;
-  }  
+.card{
   &-list{
     margin: 0 50px;
     margin-bottom: 80px;
@@ -28,12 +10,24 @@
     background: #FFFFFF;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     border-radius: 20px;
-    padding: 45px;
-    &__top{
+    &__body{
+      padding: 35px;
+    }
+    &__img{
       height: 100px;
       display: flex;
       align-items: flex-end;
       margin-bottom: 30px;
+      &_actual{
+        object-fit: cover;
+        height: 240px;
+        & img{
+          width: 100%;
+          height: 100%;
+          border-radius: 20px 20px 0 0;
+          object-fit: cover;
+        }
+      }
     }
     &__title {
       font-weight: bold;
@@ -46,14 +40,18 @@
       font-size: 16px;
       line-height: 28px;
       color: #7D7987;
+      &_mb{
+        padding-bottom: 30px;
+      }
+    }
+    &__link{
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 17px;
+      &:hover .card__link_arrow_blackout{
+        fill: #2458a0;
+      }
     }
   }
 }
-
-
-
-
-
-
-
 
