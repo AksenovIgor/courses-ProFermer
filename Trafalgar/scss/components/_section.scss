@@ -1,10 +1,12 @@
 .section{
   margin-bottom: 200px;
+  overflow: hidden;
   &-welcome{
     margin-top: 177px;
   }
   &-info{
     position: relative;
+    
     &_bg_points::before{
       content: url(img/main/benefits/bg-benefits.svg);
       position: absolute;
@@ -13,6 +15,9 @@
     }
   }
   &-actual{
+    overflow: hidden;
+  }
+  &-services{
     overflow: hidden;
   }
   &-header{
@@ -53,6 +58,20 @@
           background: #FFFFFF;
         }
       }
+      @media (max-width: 992px) {
+        font-size: 32px;
+      }
+      @media (max-width: 587px) {
+        font-size: 24px;
+      }
+    }
+    &__description{
+      font-weight: 300;
+      font-size: 18px;
+      color: #7D7987;
+      @media (max-width: 587px) {
+        font-size: 16px;
+      }
     }
     &_center{
       text-align: center;
@@ -60,11 +79,15 @@
         margin-left: auto;
         margin-right: auto;
       }
-    }
-    &__description{
-      font-weight: 300;
-      font-size: 18px;
-      color: #7D7987;
+      &_lg{
+        @media (max-width: 992px) {
+          text-align: center;
+          & .section-header__title:after{
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
+      }
     }
   }
 }

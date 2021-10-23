@@ -20,16 +20,16 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link nav-link_me_2" href="#">Home</a>
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link_me_2" href="#">Find a doctor</a>
+              <a class="nav-link" href="#">Find a doctor</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link_me_2" href="#">Apps</a>
+              <a class="nav-link" href="#">Apps</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link_me_2" href="#">Testimonials</a>
+              <a class="nav-link" href="#">Testimonials</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About us</a>
@@ -43,8 +43,8 @@
     <section class="section section-welcome">
       <div class="container">
         <div class="welcome">
-          <div class="row">
-            <div class="col-4 my-auto">
+          <div class="row row-cols-lg-2">
+            <div class="col-12 col-lg-4 my-auto text-center text-lg-start">
               <div class="welcome__header">
                 <h1 class="welcome__header_title">Virtual healthcare for you</h1>
               </div>
@@ -55,7 +55,7 @@
                 <a class="btn btn-primary btn-w-md" href="">Consult today</a>
               </div>
             </div>
-            <div class="col-7 offset-1">
+            <div class="col-12 col-lg-7 offset-lg-1">
               <img class="w-100" src="img/main/welcome/welcome-img.png" alt="">
             </div>
           </div>
@@ -149,9 +149,14 @@
     </section>
     <section class="section section-info">
       <div class="container">
-        <div class="row section-info_bg_points">
-          <div class="my-auto col-4 order-2">
-            <div class="section-header">
+        <div class="row row-cols-1 section-info_bg_points">
+          <div class="col col-lg-8">
+            <div class="info__img">
+              <img src="img/main/benefits/benefits-providers.png" alt="">
+            </div>
+          </div>
+          <div class="my-auto col-lg-4 order-2">
+            <div class="section-header section-header_center_lg">
               <div class="section-header__top">
                 <h2 class="section-header__title">Leading healthcare providers</h2>
               </div>
@@ -163,17 +168,19 @@
               </div>
             </div>
           </div>
-          <div class="col-8 order-1">
-            <img src="img/main/benefits/benefits-providers.png" alt="">
-          </div>
         </div>
       </div>
     </section>
     <section class="section section-info">
       <div class="container">
         <div class="row">
-          <div class="my-auto col-4">
-            <div class="section-header">
+          <div class="col col-lg-7 offset-xl-1 order-lg-2">
+            <div class="info__img">
+              <img src="img/main/benefits/benefits-app.png" alt="">
+            </div>
+          </div>
+          <div class="my-auto col-lg-4">
+            <div class="section-header section-header_center_lg">
               <div class="section-header__top">
                 <h2 class="section-header__title">Download our mobile apps</h2>
               </div>
@@ -189,12 +196,10 @@
               </div>
             </div>
           </div>
-          <div class="text-end col-8">
-            <img src="img/main/benefits/benefits-app.png" alt="">
-          </div>
         </div>
       </div>
     </section>
+    
     <section class="section">
       <div class="container">
         <div class="review-wrapper">
@@ -203,8 +208,8 @@
               <h2 class="section-header__title">What our customer are saying</h2>
             </div>
           </div>
-          <div class="row"> 
-            <div class="col">
+          <div class="row row-cols-1 row-cols-lg-2"> 
+            <div class="col mb-4">
               <div class="review-personality">
                 <div class="review-personality__user-photo">
                   <img src="img/main/review/review-photo.png" alt="">
@@ -299,30 +304,28 @@
           <a class="btn btn-outline-primary btn-w-md" href="">View all</a>
         </div>
       </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-container">
-        <div class="footer-content">
-          <a href="">
-            <img src="img/footer/footer logo.svg" alt="">
-          </a>
-          <p class="footer-content__text">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online 
-            for everyone</p>
-          <p class="footer-content__copyright">©Trafalgar PTY LTD 2020. All rights reserved</p>
-        </div>
-        <div class="footer-menu">
-          <div>
-            <p class="footer-menu__title">Company</p>
-            <ul class="footer-menu__list">
-              <li><a class="footer-menu__item" href="">About</a></li>
-              <li><a class="footer-menu__item" href="">Testimonials</a></li>
-              <li><a class="footer-menu__item" href="">Find a doctor</a></li>
-              <li><a class="footer-menu__item" href="">Apps</a></li>
-            </ul>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer-content">
+            <a href="">
+              <img src="img/footer/footer logo.svg" alt="">
+            </a>
+            <p class="footer-content__text">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+            <p class="footer-content__copyright">©Trafalgar PTY LTD 2020. All rights reserved</p>
           </div>
-          <div>
+          <div class="footer-menu">
+            <div>
+              <p class="footer-menu__title">Company</p>
+              <ul class="footer-menu__list">
+                <li><a class="footer-menu__item" href="">About</a></li>
+                <li><a class="footer-menu__item" href="">Testimonials</a></li>
+                <li><a class="footer-menu__item" href="">Find a doctor</a></li>
+                <li><a class="footer-menu__item" href="">Apps</a></li>
+              </ul>
+            </div>
+            <div>
             <p class="footer-menu__title">Region</p>
             <ul class="footer-menu__list">
               <li><a class="footer-menu__item" href="">Indonesia</a></li>
@@ -344,6 +347,7 @@
       </div>
     </div>
   </footer>
+</section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
