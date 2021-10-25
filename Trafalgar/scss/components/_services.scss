@@ -6,6 +6,9 @@
     right: 14px;
     top: 687px;
     z-index: -1;
+    @media (max-width: 992px) {
+      display: none;
+    }
   }
   &::after{
     content: url('./img/main/services/bg-services.svg');
@@ -13,6 +16,9 @@
     left: -505px;
     top: -16px;
     z-index: -1;
+    @media (max-width: 992px) {
+      display: none;
+    }
   }
   &-btn__wrapper{
     text-align: center;

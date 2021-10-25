@@ -12,6 +12,9 @@
       position: absolute;
       right: 13%;
       top: 461px;
+      @media (max-width: 992px) {
+        display: none;
+      }
     }
   }
   &-actual{

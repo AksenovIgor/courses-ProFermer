@@ -5,6 +5,9 @@
     position: absolute;
     left: -110px;
     top: 149px;
+    @media (max-width: 992px) {
+      display: none;
+    }
   }
   &__header{
     margin-bottom: 25px;

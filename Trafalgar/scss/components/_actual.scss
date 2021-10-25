@@ -7,6 +7,9 @@
     top: -171px;
     right: -595px;
     z-index: -1;
+    @media (max-width: 992px) {
+      display: none;
+    }
   }
   &::after{
     content: url(img/main/actual/actual-bg-points.svg);
@@ -14,6 +17,9 @@
     left: -44px;
     top: -47px;
     z-index: -1;
+    @media (max-width: 992px) {
+      display: none;
+    }
   }
   
 }
