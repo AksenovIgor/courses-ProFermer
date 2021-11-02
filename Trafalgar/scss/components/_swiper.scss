@@ -1,0 +1,15 @@
+.swiper{
+  &-slide{
+    padding: 0 80px;
+    padding-bottom: 40px;
+  }
+  &-button-prev {
+    color: #FFFFFF !important;
+  }
+  &-button-next{
+    color: #FFFFFF !important;
+  }
+  &-pagination{
+    color: #ffffff !important;
+  }
+}
