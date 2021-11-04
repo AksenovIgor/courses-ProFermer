@@ -2,14 +2,6 @@
 
 
 
-
-
-
-
-
-
-
-
 function Init(){
   reviewSlider();
   initAOS();
@@ -19,6 +11,15 @@ function Init(){
 Init();
 
 // Funktions
+$(window).scroll(function() {    
+  var scroll = $(window).scrollTop();
+
+  if (scroll >= 100) {
+      $("header").addClass("header__scroll");
+  } else {
+      $("header").removeClass("header__scroll");
+  }
+});
 
 function reviewSlider(){
   new Swiper('.JS-review-swiper', {
@@ -52,8 +53,6 @@ function initRellax(){
   });
 }
 
- 
- 
 $(document).ready(function(){
 	$("#menu").on("click","a", function (event) {
 		//отменяем стандартную обработку нажатия по ссылке
@@ -69,4 +68,4 @@ $(document).ready(function(){
 		$('body,html').animate({scrollTop: top-100}, 200);
 	});
 });
-     
+      
