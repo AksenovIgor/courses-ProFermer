@@ -1,6 +1,18 @@
 .footer{
   background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
   color: #ffffff;
+  position: relative;
+  &_rellax_dark{
+    position: absolute;
+    bottom: 1330px;
+    left: 1px;
+  }
+  &_rellax_light{
+    position: absolute;
+    bottom: 1765px;
+    right: 50px;
+    z-index: -1;
+  }
   &-wrapper{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -9,25 +21,6 @@
     position: relative;
     @media (max-width: 992px) {
       grid-template-columns: 1fr;
-    }
-    &::after{
-      content: url(img/footer/footer-element.svg);
-      position: absolute;
-      left: -154px;
-      bottom: 0px;
-      @media (max-width: 992px) {
-        display: none;
-      }
-    }
-    &::before{
-      content: url(img/footer/footer-decor.svg);
-      position: absolute;
-      z-index: -1;
-      right: -59px;
-      top: -70px;
-      @media (max-width: 1400px){
-        display: none;
-      }
     }
   }
   &-content{

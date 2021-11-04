@@ -2,18 +2,20 @@
   padding-bottom: 200px;
   &-welcome{
     margin-top: 177px;
+    &_rellax{
+      z-index: -1;
+      position: absolute;
+      top: 414px;
+      left: 134px;
+    }
   }
   &-info{
     position: relative;
-    
-    &_bg_points::before{
-      content: url(img/main/benefits/bg-benefits.svg);
+    &_rellax{
+      z-index: 1;
       position: absolute;
-      right: 13%;
-      top: 461px;
-      @media (max-width: 992px) {
-        display: none;
-      }
+      top: 1220px;
+      right: 220px;
     }
   }
   &-actual{

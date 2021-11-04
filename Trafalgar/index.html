@@ -12,29 +12,29 @@
   <title>Document</title>
 </head>
 <body>
-  <header class="header">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top header-background">
+  <header class="header fixed-top header-background">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <a href=""><img src="img/header/logo.svg" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="menu">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Find a doctor</a>
+              <a class="nav-link" href="#Find">Find a doctor</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Apps</a>
+              <a class="nav-link" href="#Apps">Apps</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
+              <a class="nav-link" href="#Testimonials">Testimonials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
+              <a class="nav-link" href="#Aboutus">About us</a>
             </li>
           </ul>
         </div>
@@ -42,170 +42,210 @@
     </nav>
   </header>
   <main class="main">
-    <section class="section section-welcome">
-      <div class="container">
-        <div class="welcome">
-          <div class="row row-cols-lg-2">
-            <div class="col-12 col-lg-4 my-auto text-center text-lg-start">
-              <div class="welcome__header">
-                <h1 class="welcome__header_title">Virtual healthcare for you</h1>
+    <section class="section section-welcome" id="home">
+      <div class="rellax section-welcome_rellax" data-rellax-speed="-3">
+        <img src="img/main/welcome/bg-welcome.svg" alt="">
+      </div>
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+        <div class="container">
+          <div class="welcome">
+            <div class="row row-cols-lg-2">
+              <div class="col-12 col-lg-4 my-auto text-center text-lg-start">
+                <div data-aos="fade-right" data-aos-duration="1500">
+                  <div class="welcome__header">
+                    <h1 class="welcome__header_title">Virtual healthcare for you</h1>
+                  </div>
+                  <div class="welcome__body">
+                    <p class="welcome__body_description">Trafalgar provides progressive, and affordabl healthcare, accessible on mobile and online for everyone</p>
+                  </div>
+                  <div class="welcome__footer">
+                    <a class="btn btn-primary btn-w-md" href="">Consult today</a>
+                  </div>
+                </div>
               </div>
-              <div class="welcome__body">
-                <p class="welcome__body_description">Trafalgar provides progressive, and affordabl healthcare, accessible on mobile and online for everyone</p>
+              <div class="col-12 col-lg-7 offset-lg-1">
+                <div data-aos="fade-left" data-aos-duration="3000">
+                  <img class="w-100" src="img/main/welcome/welcome-img.png" alt="">
+                </div>
               </div>
-              <div class="welcome__footer">
-                <a class="btn btn-primary btn-w-md" href="">Consult today</a>
-              </div>
-            </div>
-            <div class="col-12 col-lg-7 offset-lg-1">
-              <img class="w-100" src="img/main/welcome/welcome-img.png" alt="">
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="section section-services"> 
-      <div data-aos="fade-up"data-aos-duration="1000">
+    <section class="section section-services" id="Find">
         <div class="container">
           <div class="services">
-            <div class="section-header section-header_mb_large section-header_center">
-              <div class="section-header__top">
-                <h2 class="section-header__title">Our services</h2>
-              </div>
-              <div class="section-header__body">
-                <p class="section-header__description">We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</p>
-              </div>
-            </div>
-            <div class="card-list"">
-              <div class="card-item">
-                <div class="card-item__body">
-                  <div class="card-item__img">
-                    <img class="card-item__logo" src="img/main/services/card1.png" alt="...">
-                  </div>
-                  <div class="card-item__content">
-                    <h5 class="card-item__title">Search doctor</h5>
-                    <p class="card-item__text">Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
-                  </div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top">
+              <div class="section-header section-header_mb_large section-header_center">
+                <div class="section-header__top">
+                  <h2 class="section-header__title">Our services</h2>
                 </div>
-              </div>
-              <div class="card-item">
-                <div class="card-item__body">
-                  <div class="card-item__img">
-                    <img class="card-item__logo" src="img/main/services/card2.png" alt="...">
-                  </div>
-                  <div class="card-item__content">
-                    <h5 class="card-item__title">Online pharmacy</h5>
-                    <p class="card-item__text">Buy  your medicines with our mobile application with a simple delivery system</p>
-                  </div>
-                </div>
-              </div>
-              <div class="card-item">
-                <div class="card-item__body">
-                  <div class="card-item__img">
-                    <img class="card-item__logo" src="img/main/services/card3.png" alt="...">
-                  </div>
-                  <div class="card-item__content">
-                    <h5 class="card-item__title">Consultation</h5>
-                    <p class="card-item__text">Free consultation with our trusted doctors and get the best recomendations</p>
-                  </div>
-                </div>
-              </div>
-              <div class="card-item">
-                <div class="card-item__body">
-                  <div class="card-item__img">
-                    <img class="card-item__logo" src="img/main/services/card4.png" alt="...">
-                  </div>
-                  <div class="card-item__content">
-                    <h5 class="card-item__title">Details info</h5>
-                    <p class="card-item__text">Free consultation with our trusted doctors and get the best recomendations</p>
-                  </div>
-                </div>
-              </div>
-              <div class="card-item">
-                <div class="card-item__body">
-                  <div class="card-item__img">
-                    <img class="card-item__logo" src="img/main/services/card5.png" alt="...">
-                  </div>
-                  <div class="card-item__content">
-                    <h5 class="card-item__title">Emergency care</h5>
-                    <p class="card-item__text">You can get 24/7 urgent care for yourself or your children and your lovely family</p>
-                  </div>
-                </div>
-              </div>
-              <div class="card-item">
-                <div class="card-item__body">
-                  <div class="card-item__img">
-                    <img class="card-item__logo" src="img/main/services/card6.png" alt="...">
-                  </div>
-                  <div class="card-item__content">
-                    <h5 class="card-item__title">Tracking</h5>
-                    <p class="card-item__text">Track and save your medical history and health data</p>
-                  </div>
+                <div class="section-header__body">
+                  <p class="section-header__description">We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</p>
                 </div>
               </div>
             </div>
-            <div class="rellax card-list_bg" data-rellax-speed="5" data-rellax-zindex="-2">
+            <div data-aos="zoom-out" data-aos-duration="1000" data-aos-easing="ease-in-quart" data-aos-anchor-placement="top-bottom" >
+              <div class="card-list"">
+                <div data-aos="zoom-in-right" data-aos-duration="500" data-aos-anchor-placement="bottom" data-aos-delay="500">
+                  <div class="card-item">
+                    <div class="card-item__body">
+                      <div class="card-item__img">
+                        <img class="card-item__logo" src="img/main/services/card1.png" alt="...">
+                      </div>
+                      <div class="card-item__content">
+                        <h5 class="card-item__title">Search doctor</h5>
+                        <p class="card-item__text">Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-aos="zoom-in-down" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="1000">
+                  <div class="card-item">
+                    <div class="card-item__body">
+                      <div class="card-item__img">
+                        <img class="card-item__logo" src="img/main/services/card2.png" alt="...">
+                      </div>
+                      <div class="card-item__content">
+                        <h5 class="card-item__title">Online pharmacy</h5>
+                        <p class="card-item__text">Buy  your medicines with our mobile application with a simple delivery system</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-aos="zoom-in-left" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="1500">
+                  <div class="card-item">
+                    <div class="card-item__body">
+                      <div class="card-item__img">
+                        <img class="card-item__logo" src="img/main/services/card3.png" alt="...">
+                      </div>
+                      <div class="card-item__content">
+                        <h5 class="card-item__title">Consultation</h5>
+                        <p class="card-item__text">Free consultation with our trusted doctors and get the best recomendations</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-aos="zoom-out-right" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="1500">
+                  <div class="card-item">
+                    <div class="card-item__body">
+                      <div class="card-item__img">
+                        <img class="card-item__logo" src="img/main/services/card4.png" alt="...">
+                      </div>
+                      <div class="card-item__content">
+                        <h5 class="card-item__title">Details info</h5>
+                        <p class="card-item__text">Free consultation with our trusted doctors and get the best recomendations</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-aos="zoom-out-up" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="1000">
+                  <div class="card-item">
+                    <div class="card-item__body">
+                      <div class="card-item__img">
+                        <img class="card-item__logo" src="img/main/services/card5.png" alt="...">
+                      </div>
+                      <div class="card-item__content">
+                        <h5 class="card-item__title">Emergency care</h5>
+                        <p class="card-item__text">You can get 24/7 urgent care for yourself or your children and your lovely family</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-aos="zoom-out-left" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="500">
+                  <div class="card-item">
+                    <div class="card-item__body">
+                      <div class="card-item__img">
+                        <img class="card-item__logo" src="img/main/services/card6.png" alt="...">
+                      </div>
+                      <div class="card-item__content">
+                        <h5 class="card-item__title">Tracking</h5>
+                        <p class="card-item__text">Track and save your medical history and health data</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rellax card-list_bg" data-rellax-speed="5">
               <img src="img/main/services/bg-services.svg" alt="">
             </div> 
-            <div class="rellax card-list_bg_points" data-rellax-speed="5" data-rellax-zindex="-2">
+            <div class="rellax card-list_bg_points" data-rellax-speed="10">
               <img src="img/main/services/bg-services-points.svg" alt="">
             </div> 
             <div class="text-center">
-              <a class="btn btn-outline-primary btn-w-md" href="">Learn more</a>
+              <div data-aos="flip-up" data-aos-duration="1000"  data-aos-anchor-placement="top-bottom" >
+                <a class="btn btn-outline-primary btn-w-md" href="">Learn more</a>
+              </div>
             </div>
           </div>
         </div>
+    </section>
+    <section class="section section-info" id="Apps">
+      <div data-aos="fade-up"data-aos-duration="700">
+        <div class="container">
+          <div class="row row-cols-1 section-info_bg_points">
+            <div class="col col-lg-8">
+              <div data-aos="fade-down-right" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+                <div class="info__img">
+                  <img src="img/main/benefits/benefits-providers.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="my-auto col-lg-4 order-2">
+              <div data-aos="fade-down-left" data-aos-anchor-placement="top-bottom" data-aos-delay="300" data-aos-duration="2000">
+                <div class="section-header section-header_center_lg">
+                  <div class="section-header__top">
+                    <h2 class="section-header__title">Leading healthcare providers</h2>
+                  </div>
+                  <div class="section-header__body section-header_mb_small">
+                    <p class="section-header__description">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride   in the solutions we deliver</p>
+                  </div>
+                  <div class="section-btn">
+                    <div data-aos="flip-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration="2000">
+                      <a class="btn btn-outline-primary btn-w-md" href="">Learn more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rellax section-info_rellax" data-rellax-speed="3">
+        <img src="img/main/welcome/bg-welcome.svg" alt="">
       </div>
     </section>
     <section class="section section-info">
       <div data-aos="fade-up"data-aos-duration="700">
         <div class="container">
-          <div class="row row-cols-1 section-info_bg_points">
-            <div class="col col-lg-8">
-              <div class="info__img">
-                <img src="img/main/benefits/benefits-providers.png" alt="">
-              </div>
-            </div>
-            <div class="my-auto col-lg-4 order-2">
-              <div class="section-header section-header_center_lg">
-                <div class="section-header__top">
-                  <h2 class="section-header__title">Leading healthcare providers</h2>
-                </div>
-                <div class="section-header__body section-header_mb_small">
-                  <p class="section-header__description">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride   in the solutions we deliver</p>
-                </div>
-                <div class="section-btn">
-                  <a class="btn btn-outline-primary btn-w-md" href="">Learn more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section section-info">
-      <div data-aos="fade-up"data-aos-duration="1000">
-        <div class="container">
           <div class="row">
             <div class="col col-lg-7 offset-xl-1 order-lg-2">
-              <div class="info__img">
-                <img src="img/main/benefits/benefits-app.png" alt="">
+              <div data-aos="fade-down-left" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+                <div class="info__img">
+                  <img src="img/main/benefits/benefits-app.png" alt="">
+                </div>
               </div>
             </div>
             <div class="my-auto col-lg-4">
-              <div class="section-header section-header_center_lg">
-                <div class="section-header__top">
-                  <h2 class="section-header__title">Download our mobile apps</h2>
-                </div>
-                <div class="section-header__body section-header_mb_small">
-                  <p class="section-header__description">Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely</p>
-                </div>
-                <div class="section-btn">
-                  <a class="btn btn-outline-primary btn-w-md" href="">Download 
-                    <svg class="btn-m-arrow" width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path class="arrow-style-hover" d="M4.81951 1.05554L4.81951 12.6308L2.27646 10.0877C1.92569 9.73698 1.39954 9.73698 1.04878 10.0877C0.698014 10.4385 0.698014 10.9647 1.04878 11.3154L5.08258 15.3492C5.43335 15.7 5.95949 15.7 6.31026 15.3492L10.3441 11.3154C10.6948 10.9647 10.6948 10.4385 10.3441 10.0877C9.9933 9.73698 9.46715 9.73698 9.11638 10.0877L6.57333 12.6308L6.57333 1.05554C6.57333 0.617083 6.22257 0.178627 5.69642 0.178627C5.17027 0.178627 4.81951 0.617083 4.81951 1.05554Z" fill="#458FF6"/>
-                    </svg>
-                  </a>
+              <div data-aos="fade-down-right" data-aos-anchor-placement="top-bottom" data-aos-delay="300" data-aos-duration="2000">
+                <div class="section-header section-header_center_lg">
+                  <div class="section-header__top">
+                    <h2 class="section-header__title">Download our mobile apps</h2>
+                  </div>
+                  <div class="section-header__body section-header_mb_small">
+                    <p class="section-header__description">Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely</p>
+                  </div>
+                  <div class="section-btn">
+                    <div data-aos="flip-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration="2000">
+                      <a class="btn btn-outline-primary btn-w-md" href="">Download 
+                        <svg class="btn-m-arrow" width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path class="arrow-style-hover" d="M4.81951 1.05554L4.81951 12.6308L2.27646 10.0877C1.92569 9.73698 1.39954 9.73698 1.04878 10.0877C0.698014 10.4385 0.698014 10.9647 1.04878 11.3154L5.08258 15.3492C5.43335 15.7 5.95949 15.7 6.31026 15.3492L10.3441 11.3154C10.6948 10.9647 10.6948 10.4385 10.3441 10.0877C9.9933 9.73698 9.46715 9.73698 9.11638 10.0877L6.57333 12.6308L6.57333 1.05554C6.57333 0.617083 6.22257 0.178627 5.69642 0.178627C5.17027 0.178627 4.81951 0.617083 4.81951 1.05554Z" fill="#458FF6"/>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -213,156 +253,183 @@
         </div>
       </div>
     </section>
-    <section class="section">
-      <div data-aos="fade-up"data-aos-duration="1000">
+    <section class="section" id="Testimonials">
+      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+        <div class="rellax review-rellax" data-rellax-speed="2">
+          <img src="img/main/review/bg-review-dark.svg" alt="">
+        </div>
         <div class="container">
           <div class="review-wrapper">
-            <div class="section-header section-header_mb_medium section-header_center">
-              <div class="section-header__top section-header__title_light">
-                <h2 class="section-header__title">What our customer are saying</h2>
+            <div class="rellax review-wrapper-rellax" data-rellax-speed="-3">
+              <img src="img/main/review/bg-review-light.svg" alt="">
+            </div>
+            <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="700">
+              <div class="section-header section-header_mb_medium section-header_center">
+                <div class="section-header__top section-header__title_light">
+                  <h2 class="section-header__title">What our customer are saying</h2>
+                </div>
               </div>
             </div>
-            <div class="swiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="row row-cols-1 row-cols-lg-2"> 
-                    <div class="col">
-                      <div class="review-personality">
-                        <div class="review-personality__user-photo">
-                          <img src="img/main/review/review-photo.png" alt="">
-                        </div>
-                        <div class="review-personality__content">
-                          <p class="review-personality__user-name">Edward Newgate</p>
-                          <p class="review-personality__user-work">Founder Circle</p>
+            <div data-aos="zoom-in-down" data-aos-duration="1000" data-aos-delay="700">
+              <div class="swiper review__swiper JS-review-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide review__swiper-slide">
+                    <div class="row row-cols-1 row-cols-lg-2"> 
+                      <div class="col">
+                        <div class="review-personality">
+                          <div class="review-personality__user-photo">
+                            <img src="img/main/review/review-photo.png" alt="">
+                          </div>
+                          <div class="review-personality__content">
+                            <p class="review-personality__user-name">Edward Newgate</p>
+                            <p class="review-personality__user-work">Founder Circle</p>
+                          </div>
                         </div>
                       </div>
+                      <div class="col my-auto">
+                        <p class="review-text">“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”</p>
+                      </div>
                     </div>
-                    <div class="col my-auto">
-                      <p class="review-text">“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”</p>
+                  </div>
+                  <div class="swiper-slide review__swiper-slide">
+                    <div class="row row-cols-1 row-cols-lg-2"> 
+                      <div class="col">
+                        <div class="review-personality">
+                          <div class="review-personality__user-photo">
+                            <img src="https://icdn.lenta.ru/images/2021/04/27/16/20210427163138131/square_320_c09ebae17387b7d6eeb9fa0d42afe5ee.jpg" alt="">
+                          </div>
+                          <div class="review-personality__content">
+                            <p class="review-personality__user-name">Edward Newgate</p>
+                            <p class="review-personality__user-work">Founder Circle</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col my-auto">
+                        <p class="review-text">“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide review__swiper-slide">
+                    <div class="row row-cols-1 row-cols-lg-2"> 
+                      <div class="col">
+                        <div class="review-personality">
+                          <div class="review-personality__user-photo">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQogKHRngS6XF0eRf374qVq9w_5bFDV88i3ww&usqp=CAU" alt="">
+                          </div>
+                          <div class="review-personality__content">
+                            <p class="review-personality__user-name">Edward Newgate</p>
+                            <p class="review-personality__user-work">Founder Circle</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col my-auto">
+                        <p class="review-text">“Our dedicated patient engagement app and web portal allow yoOur dedicated patient engagement app and web portal allow yoOur dedicated patient engagement app and web portal allow yoOur dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="swiper-slide">
-                  <div class="row row-cols-1 row-cols-lg-2"> 
-                    <div class="col">
-                      <div class="review-personality">
-                        <div class="review-personality__user-photo">
-                          <img src="img/main/review/review-photo.png" alt="">
-                        </div>
-                        <div class="review-personality__content">
-                          <p class="review-personality__user-name">Edward Newgate</p>
-                          <p class="review-personality__user-work">Founder Circle</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col my-auto">
-                      <p class="review-text">“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="row row-cols-1 row-cols-lg-2"> 
-                    <div class="col">
-                      <div class="review-personality">
-                        <div class="review-personality__user-photo">
-                          <img src="img/main/review/review-photo.png" alt="">
-                        </div>
-                        <div class="review-personality__content">
-                          <p class="review-personality__user-name">Edward Newgate</p>
-                          <p class="review-personality__user-work">Founder Circle</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col my-auto">
-                      <p class="review-text">“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”</p>
-                    </div>
-                  </div>
-                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
               </div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
+
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="section section-actual">
-      <div data-aos="fade-up"data-aos-duration="1000">
+    <section class="section section-actual" id="Aboutus">
+      <div class="rellax actual-rellax-points" data-rellax-speed="2">
+        <img src="img/main/actual/actual-bg-points.svg" alt="">
+      </div>
+      <div class="rellax actual-rellax" data-rellax-speed="2">
+        <img src="img/main/actual/actual-bg.svg" alt="">
+      </div>
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
         <div class="container">
           <div class="section-header section-header_mb_large">
-            <div class="section-header__top section-header_center">
-              <h2 class="section-header__title">Check out our latest article</h2>
+            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+              <div class="section-header__top section-header_center">
+                <h2 class="section-header__title">Check out our latest article</h2>
+              </div>
             </div>
           </div>
           <div class="actual">
             <div class="card-list">
-              <div class="card-item card-item_actual">
-                <div class="card-item__img_actual">
-                  <img src="img/main/actual/actual-card-1.png" alt="...">
-                </div>
-                <div class="card-item__body">
-                  <h5 class="card-item__title">Disease detection, check 
-                    up in the laboratory</h5>
-                  <p class="card-item__text card-item__text_mb">In this case, the role of the health laboratory is very important to do
-                    a disease detection...</p>
-                  <a class="link link-primary card-item__link" href="">Read more <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0)">
-                    <path class="card__link_arrow_blackout" d="M1.37501 5.30357L11.9822 5.30357L9.65179 7.63393C9.33037 7.95536 9.33037 8.4375 9.65179 8.75893C9.97322 9.08036 10.4554 9.08036 10.7768 8.75893L14.4732 5.0625C14.7947 4.74107 14.7947 4.25893 14.4732 3.9375L10.7768 0.241071C10.4554 -0.0803579 9.97322 -0.080358 9.65179 0.241071C9.33037 0.5625 9.33037 1.04464 9.65179 1.36607L11.9822 3.69643L1.37501 3.69643C0.973222 3.69643 0.571436 4.01786 0.571436 4.5C0.571436 4.98214 0.973222 5.30357 1.37501 5.30357Z" fill="#4089ED"/>
-                    </g>
-                    <defs>
-                    <clipPath id="clip0">
-                    <rect width="14.1429" height="9" fill="white" transform="translate(14.7143 9) rotate(-180)"/>
-                    </clipPath>
-                    </defs>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="card-item">
-                <div class="card-item__img_actual">
-                  <img src="img/main/actual/actual-card-2.png" alt="...">
-                </div>
-                <div class="card-item__body">
-                  <h5 class="card-item__title">Herbal medicines that are safe for consumption</h5>
-                  <p class="card-item__text card-item__text_mb">Herbal medicine is very widely used at this time because of its very good for your health...</p>
-                  <a class="link link-primary card-item__link" href="">Read more <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0)">
-                    <path class="card__link_arrow_blackout" d="M1.37501 5.30357L11.9822 5.30357L9.65179 7.63393C9.33037 7.95536 9.33037 8.4375 9.65179 8.75893C9.97322 9.08036 10.4554 9.08036 10.7768 8.75893L14.4732 5.0625C14.7947 4.74107 14.7947 4.25893 14.4732 3.9375L10.7768 0.241071C10.4554 -0.0803579 9.97322 -0.080358 9.65179 0.241071C9.33037 0.5625 9.33037 1.04464 9.65179 1.36607L11.9822 3.69643L1.37501 3.69643C0.973222 3.69643 0.571436 4.01786 0.571436 4.5C0.571436 4.98214 0.973222 5.30357 1.37501 5.30357Z" fill="#4089ED"/>
-                    </g>
-                    <defs>
-                    <clipPath id="clip0">
-                    <rect width="14.1429" height="9" fill="white" transform="translate(14.7143 9) rotate(-180)"/>
-                    </clipPath>
-                    </defs>
-                    </svg>
-                  </a>
+              <div data-aos="zoom-out-right" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="300">
+                <div class="card-item card-item_actual">
+                  <div class="card-item__img_actual">
+                    <img src="img/main/actual/actual-card-1.png" alt="...">
+                  </div>
+                  <div class="card-item__body">
+                    <h5 class="card-item__title">Disease detection, check 
+                      up in the laboratory</h5>
+                    <p class="card-item__text card-item__text_mb">In this case, the role of the health laboratory is very important to do
+                      a disease detection...</p>
+                    <a class="link link-primary card-item__link" href="">Read more <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0)">
+                      <path class="card__link_arrow_blackout" d="M1.37501 5.30357L11.9822 5.30357L9.65179 7.63393C9.33037 7.95536 9.33037 8.4375 9.65179 8.75893C9.97322 9.08036 10.4554 9.08036 10.7768 8.75893L14.4732 5.0625C14.7947 4.74107 14.7947 4.25893 14.4732 3.9375L10.7768 0.241071C10.4554 -0.0803579 9.97322 -0.080358 9.65179 0.241071C9.33037 0.5625 9.33037 1.04464 9.65179 1.36607L11.9822 3.69643L1.37501 3.69643C0.973222 3.69643 0.571436 4.01786 0.571436 4.5C0.571436 4.98214 0.973222 5.30357 1.37501 5.30357Z" fill="#4089ED"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0">
+                      <rect width="14.1429" height="9" fill="white" transform="translate(14.7143 9) rotate(-180)"/>
+                      </clipPath>
+                      </defs>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
-              <div class="card-item">
-                <div class="card-item__img_actual">
-                  <img src="img/main/actual/actual-card-3.png" alt="...">
+              <div data-aos="zoom-out-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="300">
+                <div class="card-item">
+                  <div class="card-item__img_actual">
+                    <img src="img/main/actual/actual-card-2.png" alt="...">
+                  </div>
+                  <div class="card-item__body">
+                    <h5 class="card-item__title">Herbal medicines that are safe for consumption</h5>
+                    <p class="card-item__text card-item__text_mb">Herbal medicine is very widely used at this time because of its very good for your health...</p>
+                    <a class="link link-primary card-item__link" href="">Read more <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0)">
+                      <path class="card__link_arrow_blackout" d="M1.37501 5.30357L11.9822 5.30357L9.65179 7.63393C9.33037 7.95536 9.33037 8.4375 9.65179 8.75893C9.97322 9.08036 10.4554 9.08036 10.7768 8.75893L14.4732 5.0625C14.7947 4.74107 14.7947 4.25893 14.4732 3.9375L10.7768 0.241071C10.4554 -0.0803579 9.97322 -0.080358 9.65179 0.241071C9.33037 0.5625 9.33037 1.04464 9.65179 1.36607L11.9822 3.69643L1.37501 3.69643C0.973222 3.69643 0.571436 4.01786 0.571436 4.5C0.571436 4.98214 0.973222 5.30357 1.37501 5.30357Z" fill="#4089ED"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0">
+                      <rect width="14.1429" height="9" fill="white" transform="translate(14.7143 9) rotate(-180)"/>
+                      </clipPath>
+                      </defs>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
-                <div class="card-item__body">
-                  <h5 class="card-item__title">Natural care for healthy facial skin</h5>
-                  <p class="card-item__text card-item__text_mb">A healthy lifestyle should start from now and also for your skin health. There are some...</p>
-                  <a class="link link-primary card-item__link" href="">Read more <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0)">
-                    <path class="card__link_arrow_blackout" d="M1.37501 5.30357L11.9822 5.30357L9.65179 7.63393C9.33037 7.95536 9.33037 8.4375 9.65179 8.75893C9.97322 9.08036 10.4554 9.08036 10.7768 8.75893L14.4732 5.0625C14.7947 4.74107 14.7947 4.25893 14.4732 3.9375L10.7768 0.241071C10.4554 -0.0803579 9.97322 -0.080358 9.65179 0.241071C9.33037 0.5625 9.33037 1.04464 9.65179 1.36607L11.9822 3.69643L1.37501 3.69643C0.973222 3.69643 0.571436 4.01786 0.571436 4.5C0.571436 4.98214 0.973222 5.30357 1.37501 5.30357Z" fill="#4089ED"/>
-                    </g>
-                    <defs>
-                    <clipPath id="clip0">
-                    <rect width="14.1429" height="9" fill="white" transform="translate(14.7143 9) rotate(-180)"/>
-                    </clipPath>
-                    </defs>
-                    </svg>
-                  </a>
+              </div>
+              <div data-aos="zoom-out-left" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="300">
+                <div class="card-item">
+                  <div class="card-item__img_actual">
+                    <img src="img/main/actual/actual-card-3.png" alt="...">
+                  </div>
+                  <div class="card-item__body">
+                    <h5 class="card-item__title">Natural care for healthy facial skin</h5>
+                    <p class="card-item__text card-item__text_mb">A healthy lifestyle should start from now and also for your skin health. There are some...</p>
+                    <a class="link link-primary card-item__link" href="">Read more <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0)">
+                      <path class="card__link_arrow_blackout" d="M1.37501 5.30357L11.9822 5.30357L9.65179 7.63393C9.33037 7.95536 9.33037 8.4375 9.65179 8.75893C9.97322 9.08036 10.4554 9.08036 10.7768 8.75893L14.4732 5.0625C14.7947 4.74107 14.7947 4.25893 14.4732 3.9375L10.7768 0.241071C10.4554 -0.0803579 9.97322 -0.080358 9.65179 0.241071C9.33037 0.5625 9.33037 1.04464 9.65179 1.36607L11.9822 3.69643L1.37501 3.69643C0.973222 3.69643 0.571436 4.01786 0.571436 4.5C0.571436 4.98214 0.973222 5.30357 1.37501 5.30357Z" fill="#4089ED"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0">
+                      <rect width="14.1429" height="9" fill="white" transform="translate(14.7143 9) rotate(-180)"/>
+                      </clipPath>
+                      </defs>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="text-center">
-            <a class="btn btn-outline-primary btn-w-md" href="">View all</a>
+          <div data-aos="flip-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+            <div class="text-center">
+              <a class="btn btn-outline-primary btn-w-md" href="">View all</a>
+            </div>
           </div>
         </div>
       </div>
@@ -371,49 +438,66 @@
       <div class="container">
         <div class="footer-wrapper">
           <div class="footer-content">
-            <a href="">
-              <img src="img/footer/footer logo.svg" alt="">
-            </a>
-            <p class="footer-content__text">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
-            <p class="footer-content__copyright">©Trafalgar PTY LTD 2020. All rights reserved</p>
+            <div data-aos="flip-down" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+              <a href="">
+                <img src="img/footer/footer logo.svg" alt="">
+              </a>
+              <p class="footer-content__text">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+            </div>
+            <div data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="400">
+              <p class="footer-content__copyright">©Trafalgar PTY LTD 2020. All rights reserved</p>
+            </div>
           </div>
           <div class="footer-menu">
             <div>
-              <p class="footer-menu__title">Company</p>
-              <ul class="footer-menu__list">
-                <li><a class="footer-menu__item" href="">About</a></li>
-                <li><a class="footer-menu__item" href="">Testimonials</a></li>
-                <li><a class="footer-menu__item" href="">Find a doctor</a></li>
-                <li><a class="footer-menu__item" href="">Apps</a></li>
-              </ul>
+              <div data-aos="flip-down" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="100">
+                <p class="footer-menu__title">Company</p>
+                <ul class="footer-menu__list">
+                  <li><a class="footer-menu__item" href="">About</a></li>
+                  <li><a class="footer-menu__item" href="">Testimonials</a></li>
+                  <li><a class="footer-menu__item" href="">Find a doctor</a></li>
+                  <li><a class="footer-menu__item" href="">Apps</a></li>
+                </ul>
+              </div>
             </div>
             <div>
-            <p class="footer-menu__title">Region</p>
-            <ul class="footer-menu__list">
-              <li><a class="footer-menu__item" href="">Indonesia</a></li>
-              <li><a class="footer-menu__item" href="">Singapore</a></li>
-              <li><a class="footer-menu__item" href="">Hongkong</a></li>
-              <li><a class="footer-menu__item" href="">Canada</a></li>
-            </ul>
+              <div data-aos="flip-down" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="200">
+                <p class="footer-menu__title">Region</p>
+                <ul class="footer-menu__list">
+                  <li><a class="footer-menu__item" href="">Indonesia</a></li>
+                  <li><a class="footer-menu__item" href="">Singapore</a></li>
+                  <li><a class="footer-menu__item" href="">Hongkong</a></li>
+                  <li><a class="footer-menu__item" href="">Canada</a></li>
+                </ul>
+              </div>
           </div>
           <div>
-            <p class="footer-menu__title">Help</p>
-            <ul class="footer-menu__list">
-              <li><a class="footer-menu__item" href="">Help center</a></li>
-              <li><a class="footer-menu__item" href="">Contact support</a></li>
-              <li><a class="footer-menu__item" href="">Instructions</a></li>
-              <li><a class="footer-menu__item" href="">How it works</a></li>
-            </ul>
+            <div data-aos="flip-down" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="300">
+              <p class="footer-menu__title">Help</p>
+              <ul class="footer-menu__list">
+                <li><a class="footer-menu__item" href="">Help center</a></li>
+                <li><a class="footer-menu__item" href="">Contact support</a></li>
+                <li><a class="footer-menu__item" href="">Instructions</a></li>
+                <li><a class="footer-menu__item" href="">How it works</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="rellax footer_rellax_dark" data-rellax-speed="-3">
+      <img src="img/footer/footer-element.svg" alt="">
+    </div>
+    <div class="rellax footer_rellax_light" data-rellax-speed="-3">
+      <img src="img/footer/footer-decor.svg" alt="">
+    </div>
   </footer>
 </section>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="./js/rellax.min.js"></script>
-  <script src="./js/style.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+<script src="./js/style.js"></script>
 </body>
 </html>

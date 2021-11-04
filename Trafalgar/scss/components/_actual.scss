@@ -1,27 +1,17 @@
 .actual{
   position: relative;
   margin-bottom: 70px;
-  &::before{
-    content: url(img/main/actual/actual-bg.svg);
+  &-rellax{
     position: absolute;
-    top: -171px;
-    right: -595px;
-    z-index: -1;
-    @media (max-width: 992px) {
-      display: none;
+    bottom: -4570px;
+    left: 950px;
+    
+    &-points{
+      position: absolute;
+      bottom: -4268px;
+      left: 300px;
     }
   }
-  &::after{
-    content: url(img/main/actual/actual-bg-points.svg);
-    position: absolute;
-    left: -44px;
-    top: -47px;
-    z-index: -1;
-    @media (max-width: 992px) {
-      display: none;
-    }
-  }
-  
 }
 
 

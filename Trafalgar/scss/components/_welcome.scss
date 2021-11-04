@@ -1,14 +1,14 @@
 .welcome{
   position: relative;
-  &::before{
-    content: url('./img/main/welcome/bg-welcome.svg');
-    position: absolute;
-    left: -110px;
-    top: 149px;
-    @media (max-width: 992px) {
-      display: none;
-    }
-  }
+  // &::before{
+  //   content: url('./img/main/welcome/bg-welcome.svg');
+  //   position: absolute;
+  //   left: -110px;
+  //   top: 149px;
+  //   @media (max-width: 992px) {
+  //     display: none;
+  //   }
+  // }
   &__header{
     margin-bottom: 25px;
     &_title{

@@ -10,24 +10,31 @@
     @media (max-width: 576px) {
       padding: 40px 10px;
     }
-    &::before{
-      content: url(img/main/review/bg-review-light.svg);
+    &-rellax{
       position: absolute;
-      right: -50px;
-      top: -15px;
-      @media (max-width: 992px) {
-        display: none;
-      }
+      bottom: 1350px;
+      right: -51px;
     }
-    &::after{
-      content: url(img/main/review/bg-review-dark.svg);
-      position: absolute;
-      left: -53px;
-      bottom: 25px;
-      z-index: -1;
-      @media (max-width: 992px) {
-        display: none;
-      }
+    
+  }
+  &-rellax{
+    position: absolute;
+    left: 260px;
+    bottom: -650px; 
+  }
+  &__swiper{
+    & .swiper-button-prev{
+      color: #FFFFFF !important;
+    }
+    & .swiper-button-next{
+      color: #FFFFFF !important;
+    }
+    
+    & .swiper-pagination-bullet{
+      background: #FFFFFF !important;
+    }
+    &-slide{
+      padding: 35px 70px;
     }
   }
   &-personality{
@@ -50,6 +57,7 @@
         height: 100%;
         object-fit: cover;
         padding: 4px;
+        border-radius: 50%;
       }
     }
     &__content{
