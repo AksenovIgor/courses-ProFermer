@@ -8,6 +8,9 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  @media (max-width: 1025px) {
+    min-height: 45px;
+  }
   &-primary{
     background-color: #458FF6;
   }

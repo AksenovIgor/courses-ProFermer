@@ -1,25 +1,5 @@
 .services{
   position: relative;
-  // &::before{
-  //   content: url('./img/main/services/bg-services-points.svg');
-  //   position: absolute;
-  //   right: 14px;
-  //   top: 687px;
-  //   z-index: -1;
-  //   @media (max-width: 992px) {
-  //     display: none;
-  //   }
-  // }
-  // &::after{
-  //   content: url('./img/main/services/bg-services.svg');
-  //   position: absolute;
-  //   left: -505px;
-  //   top: -16px;
-  //   z-index: -1;
-  //   @media (max-width: 992px) {
-  //     display: none;
-  //   }
-  // }
   &-btn__wrapper{
     text-align: center;
   }  

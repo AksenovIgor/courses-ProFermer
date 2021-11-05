@@ -10,24 +10,20 @@
     @media (max-width: 576px) {
       padding: 40px 10px;
     }
-    &-rellax{
-      position: absolute;
-      bottom: 1350px;
-      right: -51px;
-    }
-    
   }
-  &-rellax{
-    position: absolute;
-    left: 260px;
-    bottom: -650px; 
-  }
+  
   &__swiper{
     & .swiper-button-prev{
       color: #FFFFFF !important;
+      @media (max-width: 576px) {
+        display: none;
+      }
     }
     & .swiper-button-next{
       color: #FFFFFF !important;
+      @media (max-width: 576px) {
+        display: none;
+      }
     }
     
     & .swiper-pagination-bullet{
@@ -35,6 +31,9 @@
     }
     &-slide{
       padding: 35px 70px;
+      @media (max-width: 576px) {
+        padding: 10px 10px 30px 10px;
+      }
     }
   }
   &-personality{
@@ -62,6 +61,7 @@
     }
     &__content{
       padding-left: 30px;
+      
       @media (max-width: 576px) {
         padding: 0;
         text-align: center;
@@ -79,9 +79,12 @@
   }
   &-text{
     font-size: 19px;
+    max-height: 150px;
+    overflow: auto;
     color: rgba(255, 255, 255, 0.9);
     @media (max-width: 576px) {
       text-align: center;
+      max-height: 200px;
     }
   }
 }

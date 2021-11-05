@@ -43,15 +43,15 @@
   </header>
   <main class="main">
     <section class="section section-welcome" id="home">
-      <div class="rellax section-welcome_rellax" data-rellax-speed="-3">
+      <div class="rellax rellax__welcome" data-rellax-speed="-3">
         <img src="img/main/welcome/bg-welcome.svg" alt="">
       </div>
-      <div data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+      <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
         <div class="container">
           <div class="welcome">
             <div class="row row-cols-lg-2">
               <div class="col-12 col-lg-4 my-auto text-center text-lg-start">
-                <div data-aos="fade-right" data-aos-duration="1500">
+                <div data-aos="fade-right" data-aos-once="true" data-aos-duration="1500">
                   <div class="welcome__header">
                     <h1 class="welcome__header_title">Virtual healthcare for you</h1>
                   </div>
@@ -64,7 +64,7 @@
                 </div>
               </div>
               <div class="col-12 col-lg-7 offset-lg-1">
-                <div data-aos="fade-left" data-aos-duration="3000">
+                <div data-aos="fade-left" data-aos-once="true" data-aos-duration="3000">
                   <img class="w-100" src="img/main/welcome/welcome-img.png" alt="">
                 </div>
               </div>
@@ -74,9 +74,15 @@
       </div>
     </section>
     <section class="section section-services" id="Find">
+      <div class="rellax rellax__services" data-rellax-speed="5">
+        <img src="img/main/services/bg-services.svg" alt="">
+      </div> 
+      <div class="rellax rellax__services_points" data-rellax-speed="10">
+        <img src="img/main/services/bg-services-points.svg" alt="">
+      </div>
         <div class="container">
           <div class="services">
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top">
+            <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-anchor-placement="top">
               <div class="section-header section-header_mb_large section-header_center">
                 <div class="section-header__top">
                   <h2 class="section-header__title">Our services</h2>
@@ -86,9 +92,9 @@
                 </div>
               </div>
             </div>
-            <div data-aos="zoom-out" data-aos-duration="1000" data-aos-easing="ease-in-quart" data-aos-anchor-placement="top-bottom" >
+            <div data-aos="zoom-out" data-aos-once="true" data-aos-duration="1000" data-aos-easing="ease-in-quart" data-aos-anchor-placement="top-bottom" >
               <div class="card-list"">
-                <div data-aos="zoom-in-right" data-aos-duration="500" data-aos-anchor-placement="bottom" data-aos-delay="500">
+                <div data-aos="zoom-in-right" data-aos-once="true" data-aos-duration="500" data-aos-anchor-placement="bottom" data-aos-delay="500">
                   <div class="card-item">
                     <div class="card-item__body">
                       <div class="card-item__img">
@@ -101,7 +107,7 @@
                     </div>
                   </div>
                 </div>
-                <div data-aos="zoom-in-down" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="1000">
+                <div data-aos="zoom-in-down" data-aos-once="true" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="1000">
                   <div class="card-item">
                     <div class="card-item__body">
                       <div class="card-item__img">
@@ -114,7 +120,7 @@
                     </div>
                   </div>
                 </div>
-                <div data-aos="zoom-in-left" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="1500">
+                <div data-aos="zoom-in-left" data-aos-once="true" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="1500">
                   <div class="card-item">
                     <div class="card-item__body">
                       <div class="card-item__img">
@@ -127,7 +133,7 @@
                     </div>
                   </div>
                 </div>
-                <div data-aos="zoom-out-right" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="1500">
+                <div data-aos="zoom-out-right" data-aos-once="true" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="1500">
                   <div class="card-item">
                     <div class="card-item__body">
                       <div class="card-item__img">
@@ -140,7 +146,7 @@
                     </div>
                   </div>
                 </div>
-                <div data-aos="zoom-out-up" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="1000">
+                <div data-aos="zoom-out-up" data-aos-once="true" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="1000">
                   <div class="card-item">
                     <div class="card-item__body">
                       <div class="card-item__img">
@@ -153,7 +159,7 @@
                     </div>
                   </div>
                 </div>
-                <div data-aos="zoom-out-left" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="500">
+                <div data-aos="zoom-out-left" data-aos-once="true" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="500">
                   <div class="card-item">
                     <div class="card-item__body">
                       <div class="card-item__img">
@@ -168,14 +174,8 @@
                 </div>
               </div>
             </div>
-            <div class="rellax card-list_bg" data-rellax-speed="5">
-              <img src="img/main/services/bg-services.svg" alt="">
-            </div> 
-            <div class="rellax card-list_bg_points" data-rellax-speed="10">
-              <img src="img/main/services/bg-services-points.svg" alt="">
-            </div> 
             <div class="text-center">
-              <div data-aos="flip-up" data-aos-duration="1000"  data-aos-anchor-placement="top-bottom" >
+              <div data-aos="flip-up" data-aos-duration="1000" data-aos-once="true" data-aos-anchor-placement="top-bottom" >
                 <a class="btn btn-outline-primary btn-w-md" href="">Learn more</a>
               </div>
             </div>
@@ -183,18 +183,18 @@
         </div>
     </section>
     <section class="section section-info" id="Apps">
-      <div data-aos="fade-up"data-aos-duration="700">
+      <div data-aos="fade-up" data-aos-once="true" data-aos-duration="700">
         <div class="container">
           <div class="row row-cols-1 section-info_bg_points">
             <div class="col col-lg-8">
-              <div data-aos="fade-down-right" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+              <div data-aos="fade-down-right" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
                 <div class="info__img">
                   <img src="img/main/benefits/benefits-providers.png" alt="">
                 </div>
               </div>
             </div>
             <div class="my-auto col-lg-4 order-2">
-              <div data-aos="fade-down-left" data-aos-anchor-placement="top-bottom" data-aos-delay="300" data-aos-duration="2000">
+              <div data-aos="fade-down-left" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-delay="300" data-aos-duration="2000">
                 <div class="section-header section-header_center_lg">
                   <div class="section-header__top">
                     <h2 class="section-header__title">Leading healthcare providers</h2>
@@ -203,7 +203,7 @@
                     <p class="section-header__description">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride   in the solutions we deliver</p>
                   </div>
                   <div class="section-btn">
-                    <div data-aos="flip-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration="2000">
+                    <div data-aos="flip-up" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration="2000">
                       <a class="btn btn-outline-primary btn-w-md" href="">Learn more</a>
                     </div>
                   </div>
@@ -213,23 +213,23 @@
           </div>
         </div>
       </div>
-      <div class="rellax section-info_rellax" data-rellax-speed="3">
+      <div class="rellax rellax__info" data-rellax-speed="3">
         <img src="img/main/welcome/bg-welcome.svg" alt="">
       </div>
     </section>
     <section class="section section-info">
-      <div data-aos="fade-up"data-aos-duration="700">
+      <div data-aos="fade-up" data-aos-once="true" data-aos-duration="700">
         <div class="container">
           <div class="row">
             <div class="col col-lg-7 offset-xl-1 order-lg-2">
-              <div data-aos="fade-down-left" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+              <div data-aos="fade-down-left" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
                 <div class="info__img">
                   <img src="img/main/benefits/benefits-app.png" alt="">
                 </div>
               </div>
             </div>
             <div class="my-auto col-lg-4">
-              <div data-aos="fade-down-right" data-aos-anchor-placement="top-bottom" data-aos-delay="300" data-aos-duration="2000">
+              <div data-aos="fade-down-right" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-delay="300" data-aos-duration="2000">
                 <div class="section-header section-header_center_lg">
                   <div class="section-header__top">
                     <h2 class="section-header__title">Download our mobile apps</h2>
@@ -238,7 +238,7 @@
                     <p class="section-header__description">Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely</p>
                   </div>
                   <div class="section-btn">
-                    <div data-aos="flip-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration="2000">
+                    <div data-aos="flip-up" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration="2000">
                       <a class="btn btn-outline-primary btn-w-md" href="">Download 
                         <svg class="btn-m-arrow" width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path class="arrow-style-hover" d="M4.81951 1.05554L4.81951 12.6308L2.27646 10.0877C1.92569 9.73698 1.39954 9.73698 1.04878 10.0877C0.698014 10.4385 0.698014 10.9647 1.04878 11.3154L5.08258 15.3492C5.43335 15.7 5.95949 15.7 6.31026 15.3492L10.3441 11.3154C10.6948 10.9647 10.6948 10.4385 10.3441 10.0877C9.9933 9.73698 9.46715 9.73698 9.11638 10.0877L6.57333 12.6308L6.57333 1.05554C6.57333 0.617083 6.22257 0.178627 5.69642 0.178627C5.17027 0.178627 4.81951 0.617083 4.81951 1.05554Z" fill="#458FF6"/>
@@ -254,23 +254,23 @@
       </div>
     </section>
     <section class="section" id="Testimonials">
-      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
-        <div class="rellax review-rellax" data-rellax-speed="2">
+      <div data-aos="zoom-in" data-aos-once="true" data-aos-duration="1000" data-aos-delay="200">
+        <div class="rellax rellax__review" data-rellax-speed="2">
           <img src="img/main/review/bg-review-dark.svg" alt="">
         </div>
         <div class="container">
           <div class="review-wrapper">
-            <div class="rellax review-wrapper-rellax" data-rellax-speed="-3">
+            <div class="rellax rellax__review_internal" data-rellax-speed="-3">
               <img src="img/main/review/bg-review-light.svg" alt="">
             </div>
-            <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="700">
+            <div data-aos="zoom-in-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="700">
               <div class="section-header section-header_mb_medium section-header_center">
                 <div class="section-header__top section-header__title_light">
                   <h2 class="section-header__title">What our customer are saying</h2>
                 </div>
               </div>
             </div>
-            <div data-aos="zoom-in-down" data-aos-duration="1000" data-aos-delay="700">
+            <div data-aos="zoom-in-down" data-aos-once="true" data-aos-duration="1000" data-aos-delay="700">
               <div class="swiper review__swiper JS-review-swiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide review__swiper-slide">
@@ -296,11 +296,29 @@
                       <div class="col">
                         <div class="review-personality">
                           <div class="review-personality__user-photo">
-                            <img src="https://icdn.lenta.ru/images/2021/04/27/16/20210427163138131/square_320_c09ebae17387b7d6eeb9fa0d42afe5ee.jpg" alt="">
+                            <img src="https://sun9-26.userapi.com/impf/5si8q1UIBppHcJYeW91X5VHnqhbcFNboatj1Pg/WFXTDNxcyFE.jpg?size=2494x1668&quality=96&sign=8a5be5a26f2011937351656b124f399f&type=album" alt="">
                           </div>
                           <div class="review-personality__content">
-                            <p class="review-personality__user-name">Edward Newgate</p>
-                            <p class="review-personality__user-work">Founder Circle</p>
+                            <p class="review-personality__user-name">Сергей Аксёнов</p>
+                            <p class="review-personality__user-work">ProFermer</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col my-auto">
+                        <p class="review-text">“Our dedicated patient engagement app and web portal allow yoOur dedicated patient engageedicated patient engagement app and web portal allow yoOur dedicated patient engageedicated patient engagement app and web portal allow yoOur dedicated patient engageedicated patient engagement app and web portal allow yoOur dedicated patient engageedicated patient engagement app and web portal allow yoOur dedicated patient engageedicated patient engagement app and web portal allow yoOur dedicated patient engageedicated patient engagement app and web portal allow yoOur dedicated patient engageedicated patient engagement app and web portal allow yoOur dedicated patient engageedicated patient engagement app and web portal allow yoOur dedicated patient engageedicated patient engagement app and web portal allow yoOur dedicated patient engageedicated patient engagement app and web portal allow yoOur dedicated patient engageedicated patient engagement app and web portal allow yoOur dedicated patient engageedicated patient engagement app and web portal allow yoOur dedicated patient engageedicated patient engagement app and web portal allow yoOur dedicated patient engagement app and web portal allow yoOur dedicated patient engagement app and web portal allow yoOur dedicated patient engagement app and web portal allow you to access information instantaneously (no tedo access information instantaneously (no tedo access information instantaneously (no ted eous form, long calls, or administrative hassle) and securely”</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide review__swiper-slide">
+                    <div class="row row-cols-1 row-cols-lg-2"> 
+                      <div class="col">
+                        <div class="review-personality">
+                          <div class="review-personality__user-photo">
+                            <img src="https://nightwish-club.ru/wp-content/uploads/2015/01/nightwish-11.jpg" alt="">
+                          </div>
+                          <div class="review-personality__content">
+                            <p class="review-personality__user-name">Flor Jansen</p>
+                            <p class="review-personality__user-work">Nightwish</p>
                           </div>
                         </div>
                       </div>
@@ -314,11 +332,29 @@
                       <div class="col">
                         <div class="review-personality">
                           <div class="review-personality__user-photo">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQogKHRngS6XF0eRf374qVq9w_5bFDV88i3ww&usqp=CAU" alt="">
+                            <img src="data:image/jpeg;base64,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" alt="">
                           </div>
                           <div class="review-personality__content">
-                            <p class="review-personality__user-name">Edward Newgate</p>
-                            <p class="review-personality__user-work">Founder Circle</p>
+                            <p class="review-personality__user-name">Steve Jobs</p>
+                            <p class="review-personality__user-work">Apple</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col my-auto">
+                        <p class="review-text">“Our dedicated patient engagement app and web portal allow yoOur dedicated patient engagement app and web portal allow yoOur dedicated patient engagement app and web portal allow yoOur dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide review__swiper-slide">
+                    <div class="row row-cols-1 row-cols-lg-2"> 
+                      <div class="col">
+                        <div class="review-personality">
+                          <div class="review-personality__user-photo">
+                            <img src="data:image/jpeg;base64,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" alt="">
+                          </div>
+                          <div class="review-personality__content">
+                            <p class="review-personality__user-name">Steve Jobs</p>
+                            <p class="review-personality__user-work">Apple</p>
                           </div>
                         </div>
                       </div>
@@ -339,16 +375,16 @@
       </div>
     </section>
     <section class="section section-actual" id="Aboutus">
-      <div class="rellax actual-rellax-points" data-rellax-speed="2">
+      <div class="rellax rellax__actual_points" data-rellax-speed="2">
         <img src="img/main/actual/actual-bg-points.svg" alt="">
       </div>
-      <div class="rellax actual-rellax" data-rellax-speed="2">
+      <!-- <div class="rellax rellax__actual" data-rellax-speed="2">
         <img src="img/main/actual/actual-bg.svg" alt="">
-      </div>
-      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+      </div> -->
+      <div data-aos="fade-up" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
         <div class="container">
           <div class="section-header section-header_mb_large">
-            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+            <div data-aos="fade-up" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
               <div class="section-header__top section-header_center">
                 <h2 class="section-header__title">Check out our latest article</h2>
               </div>
@@ -356,7 +392,7 @@
           </div>
           <div class="actual">
             <div class="card-list">
-              <div data-aos="zoom-out-right" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="300">
+              <div data-aos="zoom-out-right" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="300">
                 <div class="card-item card-item_actual">
                   <div class="card-item__img_actual">
                     <img src="img/main/actual/actual-card-1.png" alt="...">
@@ -380,7 +416,7 @@
                   </div>
                 </div>
               </div>
-              <div data-aos="zoom-out-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="300">
+              <div data-aos="zoom-out-up" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="300">
                 <div class="card-item">
                   <div class="card-item__img_actual">
                     <img src="img/main/actual/actual-card-2.png" alt="...">
@@ -402,7 +438,7 @@
                   </div>
                 </div>
               </div>
-              <div data-aos="zoom-out-left" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="300">
+              <div data-aos="zoom-out-left" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="300">
                 <div class="card-item">
                   <div class="card-item__img_actual">
                     <img src="img/main/actual/actual-card-3.png" alt="...">
@@ -426,7 +462,7 @@
               </div>
             </div>
           </div>
-          <div data-aos="flip-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+          <div data-aos="flip-up" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
             <div class="text-center">
               <a class="btn btn-outline-primary btn-w-md" href="">View all</a>
             </div>
@@ -438,19 +474,19 @@
       <div class="container">
         <div class="footer-wrapper">
           <div class="footer-content">
-            <div data-aos="flip-down" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+            <div data-aos="flip-down" data-aos-once="true" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
               <a href="">
                 <img src="img/footer/footer logo.svg" alt="">
               </a>
               <p class="footer-content__text">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
             </div>
-            <div data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="400">
+            <div data-aos="fade-right" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="400">
               <p class="footer-content__copyright">©Trafalgar PTY LTD 2020. All rights reserved</p>
             </div>
           </div>
           <div class="footer-menu">
             <div>
-              <div data-aos="flip-down" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="100">
+              <div data-aos="flip-down" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="100">
                 <p class="footer-menu__title">Company</p>
                 <ul class="footer-menu__list">
                   <li><a class="footer-menu__item" href="">About</a></li>
@@ -461,7 +497,7 @@
               </div>
             </div>
             <div>
-              <div data-aos="flip-down" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="200">
+              <div data-aos="flip-down" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="200">
                 <p class="footer-menu__title">Region</p>
                 <ul class="footer-menu__list">
                   <li><a class="footer-menu__item" href="">Indonesia</a></li>
@@ -472,7 +508,7 @@
               </div>
           </div>
           <div>
-            <div data-aos="flip-down" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="300">
+            <div data-aos="flip-down" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="300">
               <p class="footer-menu__title">Help</p>
               <ul class="footer-menu__list">
                 <li><a class="footer-menu__item" href="">Help center</a></li>
@@ -485,10 +521,10 @@
         </div>
       </div>
     </div>
-    <div class="rellax footer_rellax_dark" data-rellax-speed="-3">
+    <div class="rellax rellax__footer_dark" data-rellax-speed="-3">
       <img src="img/footer/footer-element.svg" alt="">
     </div>
-    <div class="rellax footer_rellax_light" data-rellax-speed="-3">
+    <div class="rellax rellax__footer_light" data-rellax-speed="3">
       <img src="img/footer/footer-decor.svg" alt="">
     </div>
   </footer>
@@ -498,6 +534,6 @@
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
-<script src="./js/style.js"></script>
+<script src="./js/script.js"></script>
 </body>
 </html>

@@ -1,14 +1,5 @@
 .welcome{
   position: relative;
-  // &::before{
-  //   content: url('./img/main/welcome/bg-welcome.svg');
-  //   position: absolute;
-  //   left: -110px;
-  //   top: 149px;
-  //   @media (max-width: 992px) {
-  //     display: none;
-  //   }
-  // }
   &__header{
     margin-bottom: 25px;
     &_title{
@@ -32,10 +23,7 @@
   }
   &__footer{
     @media (max-width: 992px){
-      position: absolute;
-      bottom: -100px;
-      left: 1%;
-      right: 1%;
+      margin-bottom: 30px;
     }
   }
 }
