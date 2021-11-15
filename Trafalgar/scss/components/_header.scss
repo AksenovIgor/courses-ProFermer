@@ -19,3 +19,18 @@
     text-shadow: 0.2px 0.2px rgb(0, 0, 0);
   }
 }
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+.nav-pills .nav-link.active{
+  background-color: rgba(255, 0, 0, 0) !important;
+}
+.navbar-light .navbar-nav .nav-link.active{
+  color: #458FF6;
+}
+.collapsing{
+  -webkit-transition: all 5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}

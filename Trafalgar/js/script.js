@@ -8,7 +8,7 @@ Init();
 $(window).scroll(function() {    
   var scroll = $(window).scrollTop();
 
-  if (scroll >= 100) {
+  if (scroll >= 2) {
       $("header").addClass("header__scroll");
   } else {
       $("header").removeClass("header__scroll");
@@ -43,20 +43,44 @@ function initRellax(){
     horizontal:true,
   });
 }
+// плавный скролл
 $(document).ready(function(){
 	$("#menu").on("click","a", function (event) {
 		event.preventDefault();
-		var id  = $(this).attr('href'),
+    
+	var id  = $(this).attr('href'),
 			top = $(id).offset().top;
 		$('body,html').animate({scrollTop: top-100}, 200);
 	});
 });
 
+// скроллспай
+var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: '#navbar-example'
+});
 
+// зум на карточках
 $(document).ready(function(){
 	$('.card-item__img_actual img').hover(function() {
 		$(this).addClass('transition');
 	}, function() {
 		$(this).removeClass('transition');
 	});
+});
+
+// гамбургер
+var $hamburger = $(".hamburger");
+  $hamburger.on("click", function(e) {
+    $hamburger.toggleClass("is-active");
+    
+  });
+
+ 
+
+  $(document).ready(function () {
+    $(".navbar-nav a").click(function (e) {
+        e.preventDefault();
+        $('.navbar-collapse.show').collapse('hide');
+        $hamburger.removeClass("is-active");
+    });
 });

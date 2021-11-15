@@ -17,6 +17,9 @@
     top: 21%;
     left: -6%;
     @media (max-width: 1441px) {
+      left: -20%;
+    }
+    @media (max-width: 1025px) {
       display: none;
     }
     &_points{
@@ -25,6 +28,10 @@
       top: 111.3%;
       right: 14.5%;
       @media (max-width: 1441px) {
+        right: 1.5%;
+        top: 123.3%;
+      }
+      @media (max-width: 1025px) {
         display: none;
       }
     }
@@ -35,14 +42,22 @@
     top: 160%;
     right: 14.5%;
     @media (max-width: 1441px) {
+      top: 180%;
+      right: 7.5%;
+    }
+    @media (max-width: 1025px) {
       display: none;
     }
   }
   &__review{
     position: absolute;
-    left: 13.5%;
-    bottom: -138.5%; 
+    left: 8%;
+    bottom: -150.5%; 
     @media (max-width: 1441px) {
+      left: -1%;
+      bottom: -155.5%;
+    }
+    @media (max-width: 1025px) {
       display: none;
     }
     &_internal{
@@ -50,6 +65,10 @@
       bottom: 272.3%;
       right: -4%;
       @media (max-width: 1441px) {
+        bottom: 295.3%;
+        right: -4%;
+      }
+      @media (max-width: 1025px) {
         display: none;
       }
     }
@@ -59,13 +78,21 @@
     bottom: -25%;
     left: 50%;
     @media (max-width: 1441px) {
+      bottom: -30%;
+      left: 50%;
+    }
+    @media (max-width: 1025px) {
       display: none;
     }
     &_points{
       position: absolute;
-      bottom: 3%;
-      left: 14.5%;
+      bottom: -2.5%;
+      left: 12%;
       @media (max-width: 1441px) {
+        bottom: -8%;
+        left: 1.5%;
+      }
+      @media (max-width: 1025px) {
         display: none;
       }
     }
@@ -73,19 +100,40 @@
   &__footer{
     &_dark{
       position: absolute;
-      top: -225.5%;
+      bottom: 300.5%;
       left: 0.5%;
       @media (max-width: 1441px) {
+        left: -4.4%;
+      }
+      @media (max-width: 1025px) {
         display: none;
+      }
+      @media (max-height: 1000px) {
+        bottom: 300.5%;
+      }
+      @media (max-height: 900px) {
+        bottom: 330.5%;
+      }
+      @media (max-height: 800px) {
+        bottom: 375.5%;
       }
     }
     &_light{
       position: absolute;
-      bottom: -207.5%;
+      bottom: -136.5%;
       right: 5%;
       z-index: -1;
       @media (max-width: 1441px) {
+      }
+      @media (max-width: 1025px) {
         display: none;
+      }
+      
+      @media (max-height: 900px) {
+        bottom: -150.5%;
+      }
+      @media (max-height: 800px) {
+        bottom: -170.5%;
       }
     }
   }

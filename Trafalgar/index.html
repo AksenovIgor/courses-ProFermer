@@ -11,30 +11,32 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Document</title>
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="300" tabindex="0">
   <header class="header fixed-top header-background">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <a href=""><img src="img/header/logo.svg" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler hamburger hamburger--minus" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="menu">
+          <ul class="navbar-nav nav-pills ms-auto mb-2 mb-lg-0" id="menu">
             <li class="nav-item">
               <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Find">Find a doctor</a>
+              <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Apps">Apps</a>
+              <a class="nav-link" href="#info">Info</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Testimonials">Testimonials</a>
+              <a class="nav-link" href="#review">Review</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Aboutus">About us</a>
+              <a class="nav-link" href="#actual">Actual</a>
             </li>
           </ul>
         </div>
@@ -42,7 +44,7 @@
     </nav>
   </header>
   <main class="main">
-    <section class="section section-welcome" id="home">
+    <section class="section section-welcome" id="home" >
       <div class="rellax rellax__welcome" data-rellax-speed="-3">
         <img src="img/main/welcome/bg-welcome.svg" alt="">
       </div>
@@ -73,7 +75,7 @@
         </div>
       </div>
     </section>
-    <section class="section section-services" id="Find">
+    <section class="section section-services" id="services">
       <div class="rellax rellax__services" data-rellax-speed="5">
         <img src="img/main/services/bg-services.svg" alt="">
       </div> 
@@ -82,7 +84,7 @@
       </div>
         <div class="container">
           <div class="services">
-            <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-anchor-placement="top">
+            <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
               <div class="section-header section-header_mb_large section-header_center">
                 <div class="section-header__top">
                   <h2 class="section-header__title">Our services</h2>
@@ -94,7 +96,7 @@
             </div>
             <div data-aos="zoom-out" data-aos-once="true" data-aos-duration="1000" data-aos-easing="ease-in-quart" data-aos-anchor-placement="top-bottom" >
               <div class="card-list"">
-                <div data-aos="zoom-in-right" data-aos-once="true" data-aos-duration="500" data-aos-anchor-placement="bottom" data-aos-delay="500">
+                <div data-aos="flip-left" data-aos-once="true" data-aos-duration="500" data-aos-anchor-placement="bottom" data-aos-delay="300">
                   <div class="card-item">
                     <div class="card-item__body">
                       <div class="card-item__img">
@@ -107,7 +109,7 @@
                     </div>
                   </div>
                 </div>
-                <div data-aos="zoom-in-down" data-aos-once="true" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="1000">
+                <div data-aos="flip-left" data-aos-once="true" data-aos-duration="500" data-aos-anchor-placement="center-bottom" data-aos-delay="500">
                   <div class="card-item">
                     <div class="card-item__body">
                       <div class="card-item__img">
@@ -120,7 +122,7 @@
                     </div>
                   </div>
                 </div>
-                <div data-aos="zoom-in-left" data-aos-once="true" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="1500">
+                <div data-aos="flip-left" data-aos-once="true" data-aos-duration="500" data-aos-anchor-placement="center-bottom" data-aos-delay="700">
                   <div class="card-item">
                     <div class="card-item__body">
                       <div class="card-item__img">
@@ -133,7 +135,7 @@
                     </div>
                   </div>
                 </div>
-                <div data-aos="zoom-out-right" data-aos-once="true" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="1500">
+                <div data-aos="flip-left" data-aos-once="true" data-aos-duration="500" data-aos-anchor-placement="center-bottom" data-aos-delay="300">
                   <div class="card-item">
                     <div class="card-item__body">
                       <div class="card-item__img">
@@ -146,7 +148,7 @@
                     </div>
                   </div>
                 </div>
-                <div data-aos="zoom-out-up" data-aos-once="true" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="1000">
+                <div data-aos="flip-left" data-aos-once="true" data-aos-duration="500" data-aos-anchor-placement="center-bottom" data-aos-delay="500">
                   <div class="card-item">
                     <div class="card-item__body">
                       <div class="card-item__img">
@@ -159,7 +161,7 @@
                     </div>
                   </div>
                 </div>
-                <div data-aos="zoom-out-left" data-aos-once="true" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-delay="500">
+                <div data-aos="flip-left" data-aos-once="true" data-aos-duration="500" data-aos-anchor-placement="center-bottom" data-aos-delay="700">
                   <div class="card-item">
                     <div class="card-item__body">
                       <div class="card-item__img">
@@ -175,26 +177,26 @@
               </div>
             </div>
             <div class="text-center">
-              <div data-aos="flip-up" data-aos-duration="1000" data-aos-once="true" data-aos-anchor-placement="top-bottom" >
+              <div data-aos="flip-up" data-aos-duration="1000" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-delay="1500">
                 <a class="btn btn-outline-primary btn-w-md" href="">Learn more</a>
               </div>
             </div>
           </div>
         </div>
     </section>
-    <section class="section section-info" id="Apps">
+    <section class="section section-info" id="info">
       <div data-aos="fade-up" data-aos-once="true" data-aos-duration="700">
         <div class="container">
           <div class="row row-cols-1 section-info_bg_points">
             <div class="col col-lg-8">
-              <div data-aos="fade-down-right" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+              <div data-aos="fade-down-right" data-aos-once="true" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
                 <div class="info__img">
                   <img src="img/main/benefits/benefits-providers.png" alt="">
                 </div>
               </div>
             </div>
             <div class="my-auto col-lg-4 order-2">
-              <div data-aos="fade-down-left" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-delay="300" data-aos-duration="2000">
+              <div data-aos="fade-down-left" data-aos-once="true" data-aos-anchor-placement="center-bottom" data-aos-delay="300" data-aos-duration="2000">
                 <div class="section-header section-header_center_lg">
                   <div class="section-header__top">
                     <h2 class="section-header__title">Leading healthcare providers</h2>
@@ -203,7 +205,7 @@
                     <p class="section-header__description">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride   in the solutions we deliver</p>
                   </div>
                   <div class="section-btn">
-                    <div data-aos="flip-up" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration="2000">
+                    <div data-aos="flip-up" data-aos-once="true" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration="2000">
                       <a class="btn btn-outline-primary btn-w-md" href="">Learn more</a>
                     </div>
                   </div>
@@ -222,14 +224,14 @@
         <div class="container">
           <div class="row">
             <div class="col col-lg-7 offset-xl-1 order-lg-2">
-              <div data-aos="fade-down-left" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+              <div data-aos="fade-down-left" data-aos-once="true" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
                 <div class="info__img">
                   <img src="img/main/benefits/benefits-app.png" alt="">
                 </div>
               </div>
             </div>
             <div class="my-auto col-lg-4">
-              <div data-aos="fade-down-right" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-delay="300" data-aos-duration="2000">
+              <div data-aos="fade-down-right" data-aos-once="true" data-aos-anchor-placement="center-bottom" data-aos-delay="300" data-aos-duration="2000">
                 <div class="section-header section-header_center_lg">
                   <div class="section-header__top">
                     <h2 class="section-header__title">Download our mobile apps</h2>
@@ -238,7 +240,7 @@
                     <p class="section-header__description">Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely</p>
                   </div>
                   <div class="section-btn">
-                    <div data-aos="flip-up" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration="2000">
+                    <div data-aos="flip-up" data-aos-once="true" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration="2000">
                       <a class="btn btn-outline-primary btn-w-md" href="">Download 
                         <svg class="btn-m-arrow" width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path class="arrow-style-hover" d="M4.81951 1.05554L4.81951 12.6308L2.27646 10.0877C1.92569 9.73698 1.39954 9.73698 1.04878 10.0877C0.698014 10.4385 0.698014 10.9647 1.04878 11.3154L5.08258 15.3492C5.43335 15.7 5.95949 15.7 6.31026 15.3492L10.3441 11.3154C10.6948 10.9647 10.6948 10.4385 10.3441 10.0877C9.9933 9.73698 9.46715 9.73698 9.11638 10.0877L6.57333 12.6308L6.57333 1.05554C6.57333 0.617083 6.22257 0.178627 5.69642 0.178627C5.17027 0.178627 4.81951 0.617083 4.81951 1.05554Z" fill="#458FF6"/>
@@ -253,8 +255,8 @@
         </div>
       </div>
     </section>
-    <section class="section" id="Testimonials">
-      <div data-aos="zoom-in" data-aos-once="true" data-aos-duration="1000" data-aos-delay="200">
+    <section class="section" id="review">
+      <div class="review" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1000" data-aos-anchor-placement="center-bottom" data-aos-delay="200">
         <div class="rellax rellax__review" data-rellax-speed="2">
           <img src="img/main/review/bg-review-dark.svg" alt="">
         </div>
@@ -263,14 +265,14 @@
             <div class="rellax rellax__review_internal" data-rellax-speed="-3">
               <img src="img/main/review/bg-review-light.svg" alt="">
             </div>
-            <div data-aos="zoom-in-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="700">
+            <div data-aos="zoom-in-up" data-aos-once="true" data-aos-duration="1000" data-aos-anchor-placement="center-bottom" data-aos-delay="700">
               <div class="section-header section-header_mb_medium section-header_center">
                 <div class="section-header__top section-header__title_light">
                   <h2 class="section-header__title">What our customer are saying</h2>
                 </div>
               </div>
             </div>
-            <div data-aos="zoom-in-down" data-aos-once="true" data-aos-duration="1000" data-aos-delay="700">
+            <div data-aos="zoom-in-down" data-aos-once="true" data-aos-duration="1000" data-aos-anchor-placement="center-bottom" data-aos-delay="700">
               <div class="swiper review__swiper JS-review-swiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide review__swiper-slide">
@@ -364,27 +366,39 @@
                     </div>
                   </div>
                 </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                
               </div>
 
             </div>
           </div>
         </div>
+        <div class="swiper-pagination-wrapper">
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev">
+            <svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M27.6911 8.76265L6.64523 8.76265L11.269 4.13893C11.9067 3.50117 11.9067 2.54454 11.269 1.90678C10.6312 1.26903 9.67457 1.26903 9.03681 1.90678L1.70263 9.24097C1.06487 9.87872 1.06487 10.8354 1.70263 11.4731L9.03681 18.8073C9.67457 19.445 10.6312 19.445 11.269 18.8073C11.9067 18.1695 11.9067 17.2129 11.269 16.5752L6.64523 11.9514L27.6911 11.9514C28.4883 11.9514 29.2855 11.3137 29.2855 10.357C29.2855 9.40041 28.4883 8.76265 27.6911 8.76265Z" fill="#458FF6"/>
+              </g>
+              </svg>
+          </div>
+          <div class="swiper-button-next">
+            <svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3.73745 11.2373L24.7834 11.2373L20.1596 15.8611C19.5219 16.4988 19.5219 17.4555 20.1596 18.0932C20.7974 18.731 21.754 18.731 22.3918 18.0932L29.726 10.759C30.3637 10.1213 30.3637 9.16464 29.726 8.52689L22.3918 1.1927C21.754 0.55495 20.7974 0.55495 20.1596 1.1927C19.5219 1.83046 19.5219 2.78709 20.1596 3.42485L24.7834 8.04857L3.73745 8.04857C2.94025 8.04857 2.14306 8.68633 2.14306 9.64296C2.14306 10.5996 2.94025 11.2373 3.73745 11.2373Z" fill="#458FF6"/>
+              </svg>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="section section-actual" id="Aboutus">
+    <section class="section section-actual" id="actual">
       <div class="rellax rellax__actual_points" data-rellax-speed="2">
         <img src="img/main/actual/actual-bg-points.svg" alt="">
       </div>
-      <!-- <div class="rellax rellax__actual" data-rellax-speed="2">
+      <div class="rellax rellax__actual" data-rellax-speed="2">
         <img src="img/main/actual/actual-bg.svg" alt="">
-      </div> -->
+      </div>
       <div data-aos="fade-up" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
         <div class="container">
           <div class="section-header section-header_mb_large">
-            <div data-aos="fade-up" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+            <div data-aos="fade-up" data-aos-once="true" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
               <div class="section-header__top section-header_center">
                 <h2 class="section-header__title">Check out our latest article</h2>
               </div>
@@ -392,7 +406,7 @@
           </div>
           <div class="actual">
             <div class="card-list">
-              <div data-aos="zoom-out-right" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="300">
+              <div data-aos="zoom-out-right" data-aos-once="true" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" data-aos-delay="300">
                 <div class="card-item card-item_actual">
                   <div class="card-item__img_actual">
                     <img src="img/main/actual/actual-card-1.png" alt="...">
@@ -402,6 +416,7 @@
                       up in the laboratory</h5>
                     <p class="card-item__text card-item__text_mb">In this case, the role of the health laboratory is very important to do
                       a disease detection...</p>
+                    
                     <a class="link link-primary card-item__link" href="">Read more <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0)">
                       <path class="card__link_arrow_blackout" d="M1.37501 5.30357L11.9822 5.30357L9.65179 7.63393C9.33037 7.95536 9.33037 8.4375 9.65179 8.75893C9.97322 9.08036 10.4554 9.08036 10.7768 8.75893L14.4732 5.0625C14.7947 4.74107 14.7947 4.25893 14.4732 3.9375L10.7768 0.241071C10.4554 -0.0803579 9.97322 -0.080358 9.65179 0.241071C9.33037 0.5625 9.33037 1.04464 9.65179 1.36607L11.9822 3.69643L1.37501 3.69643C0.973222 3.69643 0.571436 4.01786 0.571436 4.5C0.571436 4.98214 0.973222 5.30357 1.37501 5.30357Z" fill="#4089ED"/>
@@ -416,7 +431,7 @@
                   </div>
                 </div>
               </div>
-              <div data-aos="zoom-out-up" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="300">
+              <div data-aos="zoom-out-up" data-aos-once="true" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" data-aos-delay="300">
                 <div class="card-item">
                   <div class="card-item__img_actual">
                     <img src="img/main/actual/actual-card-2.png" alt="...">
@@ -438,7 +453,7 @@
                   </div>
                 </div>
               </div>
-              <div data-aos="zoom-out-left" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="300">
+              <div data-aos="zoom-out-left" data-aos-once="true" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" data-aos-delay="300">
                 <div class="card-item">
                   <div class="card-item__img_actual">
                     <img src="img/main/actual/actual-card-3.png" alt="...">
@@ -462,31 +477,37 @@
               </div>
             </div>
           </div>
-          <div data-aos="flip-up" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+          <div data-aos="flip-up" data-aos-once="true" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
             <div class="text-center">
               <a class="btn btn-outline-primary btn-w-md" href="">View all</a>
             </div>
           </div>
         </div>
       </div>
+      <div class="rellax rellax__footer_light" data-rellax-speed="3">
+        <img src="img/footer/footer-decor.svg" alt="">
+      </div>
     </main>
     <footer class="footer">
+      <div class="rellax rellax__footer_dark" data-rellax-speed="-3">
+        <img src="img/footer/footer-element.svg" alt="">
+      </div>
       <div class="container">
         <div class="footer-wrapper">
           <div class="footer-content">
-            <div data-aos="flip-down" data-aos-once="true" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+            <div data-aos="flip-down" data-aos-once="true" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
               <a href="">
                 <img src="img/footer/footer logo.svg" alt="">
               </a>
               <p class="footer-content__text">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
             </div>
-            <div data-aos="fade-right" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="400">
+            <div data-aos="fade-right" data-aos-once="true" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" data-aos-delay="400">
               <p class="footer-content__copyright">©Trafalgar PTY LTD 2020. All rights reserved</p>
             </div>
           </div>
           <div class="footer-menu">
             <div>
-              <div data-aos="flip-down" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="100">
+              <div data-aos="flip-down" data-aos-once="true" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" data-aos-delay="100">
                 <p class="footer-menu__title">Company</p>
                 <ul class="footer-menu__list">
                   <li><a class="footer-menu__item" href="">About</a></li>
@@ -497,7 +518,7 @@
               </div>
             </div>
             <div>
-              <div data-aos="flip-down" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="200">
+              <div data-aos="flip-down" data-aos-once="true" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" data-aos-delay="200">
                 <p class="footer-menu__title">Region</p>
                 <ul class="footer-menu__list">
                   <li><a class="footer-menu__item" href="">Indonesia</a></li>
@@ -508,7 +529,7 @@
               </div>
           </div>
           <div>
-            <div data-aos="flip-down" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="300">
+            <div data-aos="flip-down" data-aos-once="true" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" data-aos-delay="300">
               <p class="footer-menu__title">Help</p>
               <ul class="footer-menu__list">
                 <li><a class="footer-menu__item" href="">Help center</a></li>
@@ -521,14 +542,7 @@
         </div>
       </div>
     </div>
-    <div class="rellax rellax__footer_dark" data-rellax-speed="-3">
-      <img src="img/footer/footer-element.svg" alt="">
-    </div>
-    <div class="rellax rellax__footer_light" data-rellax-speed="3">
-      <img src="img/footer/footer-decor.svg" alt="">
-    </div>
   </footer>
-</section>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
